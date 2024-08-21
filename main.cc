@@ -16,17 +16,14 @@ int main (){
     {
         case 1:
             std::cout<<"suma";
-            break:
+            number3 = number1 + number2;
+            std:: cout << number3;
+            break;
 
         case 2:
             std::cout<<"resta";
-            break:
-        case 3:
-            std::cout<<"multiplicacion";
-            break:
-        case 4:
-            std::<<cout"division";
-            break:
+            break;
+        
 
     }
 
