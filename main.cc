@@ -9,18 +9,22 @@ int main (){
 
     std::cout<<"que operacion desea realizar:\n"<<"1-suma.\n"<<"2-resta.\n"<<std::endl;
     std::cin>>opc;
-
+    std::cout<<"ingrese el primer numero: "<<std::endl;
+    std::cin>>number1;
+    std::cout<<"ingrese el segundo numero: "<<std::endl;
+    std::cin>>number2;
 
     
     switch (opc)
     {
         case 1:
-            std::cout<<"suma";
+            number3 = number1 + number2;
+            std::cout<<"la suma es: "<<number3;
             break;
 
         case 2:
-            number3 = number1 - number2
-            std::number3;
+            number3 = number1 - number2;
+            std::cout<<"la resta es: "<<number3;
             break;
 
     }
